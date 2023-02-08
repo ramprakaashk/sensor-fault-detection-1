@@ -3,7 +3,7 @@ from sensor.exception import SensorException
 import os,sys
 from sensor.logger import logging
 from sensor.pipeline import training_pipeline
-from sensor.pipeline.training_pipeline import TrainPipeline
+from sensor.pipeline.training_pipeline import TrainPipeline 
 import os
 from sensor.utils.main_utils import read_yaml_file
 from sensor.constant.training_pipeline import SAVED_MODEL_DIR
